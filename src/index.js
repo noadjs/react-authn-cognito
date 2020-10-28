@@ -6,9 +6,9 @@ export default (awsConfig) => {
 
     const fetchSessionValue = () => Auth.currentSession().catch(() => null);
 
-    const redirectToLogin = Auth.federatedSignIn;
+    const redirectToLogin = () => Auth.federatedSignIn();
 
-    const logOut = Auth.signOut;
+    const logOut = () => Auth.signOut();
 
     return authnFactory({
         fetchSessionValue,
