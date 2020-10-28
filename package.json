@@ -1,0 +1,45 @@
+{
+    "name": "@noadjs/react-authn-cognito",
+    "version": "0.1.0",
+    "description": "",
+    "main": "lib/index.js",
+    "files": [
+        "/lib"
+    ],
+    "scripts": {
+        "build": "rollup -c",
+        "prepare": "npm run build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/noadjs/react-authn-cognito.git"
+    },
+    "keywords": [
+        "react",
+        "authn",
+        "aws",
+        "cognito"
+    ],
+    "author": "Brandon Noad",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/noadjs/react-authn-cognito/issues"
+    },
+    "homepage": "https://github.com/noadjs/react-authn-cognito#readme",
+    "peerDependencies": {
+        "aws-amplify": ">=3.3.4",
+        "react": ">=16.8.0"
+    },
+    "dependencies": {
+        "@noadjs/react-authn": "^0.2.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.3",
+        "@babel/preset-env": "^7.12.1",
+        "@babel/preset-react": "^7.12.1",
+        "@rollup/plugin-babel": "^5.2.1",
+        "@rollup/plugin-node-resolve": "^10.0.0",
+        "rollup": "^2.32.1"
+    }
+}
