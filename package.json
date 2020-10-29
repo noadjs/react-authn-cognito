@@ -1,6 +1,6 @@
 {
     "name": "@noadjs/react-authn-cognito",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "",
     "main": "lib/index.js",
     "files": [
@@ -31,13 +31,12 @@
         "aws-amplify": ">=3.3.4",
         "react": ">=16.8.0"
     },
-    "dependencies": {
-        "@noadjs/react-authn": "^0.2.0"
-    },
+    "dependencies": {},
     "devDependencies": {
         "@babel/core": "^7.12.3",
         "@babel/preset-env": "^7.12.1",
         "@babel/preset-react": "^7.12.1",
+        "@noadjs/react-authn": "^0.2.0",
         "@rollup/plugin-babel": "^5.2.1",
         "@rollup/plugin-node-resolve": "^10.0.0",
         "rollup": "^2.32.1"
